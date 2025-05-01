@@ -42,10 +42,6 @@
             label1 = new Label();
             label3 = new Label();
             dataGridView1 = new DataGridView();
-            Id = new DataGridViewTextBoxColumn();
-            Titulo = new DataGridViewTextBoxColumn();
-            Prioridade = new DataGridViewTextBoxColumn();
-            Data = new DataGridViewTextBoxColumn();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
@@ -238,40 +234,12 @@
             dataGridView1.BackgroundColor = SystemColors.ButtonHighlight;
             dataGridView1.BorderStyle = BorderStyle.None;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Id, Titulo, Prioridade, Data });
             dataGridView1.Location = new Point(298, 81);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(554, 350);
+            dataGridView1.Size = new Size(788, 402);
             dataGridView1.TabIndex = 2;
-            // 
-            // Id
-            // 
-            Id.HeaderText = "Id";
-            Id.MinimumWidth = 6;
-            Id.Name = "Id";
-            Id.Width = 125;
-            // 
-            // Titulo
-            // 
-            Titulo.HeaderText = "Titulo";
-            Titulo.MinimumWidth = 6;
-            Titulo.Name = "Titulo";
-            Titulo.Width = 125;
-            // 
-            // Prioridade
-            // 
-            Prioridade.HeaderText = "Prioridade";
-            Prioridade.MinimumWidth = 6;
-            Prioridade.Name = "Prioridade";
-            Prioridade.Width = 125;
-            // 
-            // Data
-            // 
-            Data.HeaderText = "Data da Abertura";
-            Data.MinimumWidth = 6;
-            Data.Name = "Data";
-            Data.Width = 125;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
             // CentralSuporte
             // 
@@ -279,7 +247,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ControlLightLight;
             BackgroundImageLayout = ImageLayout.Center;
-            ClientSize = new Size(1090, 495);
+            ClientSize = new Size(1098, 495);
             Controls.Add(dataGridView1);
             Controls.Add(label3);
             Controls.Add(panel1);
@@ -313,9 +281,5 @@
         private Panel panel3;
         private Label label3;
         private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn Id;
-        private DataGridViewTextBoxColumn Titulo;
-        private DataGridViewTextBoxColumn Prioridade;
-        private DataGridViewTextBoxColumn Data;
     }
 }
