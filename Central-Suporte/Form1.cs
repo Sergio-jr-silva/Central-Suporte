@@ -90,7 +90,7 @@ namespace Central_Suporte
                         Name = "btnDescricao",
                         Text = "🔍 Ver",
                         UseColumnTextForButtonValue = true
-                        
+
                     };
                     dataGridView1.Columns.Add(btnDescricao);
 
@@ -191,6 +191,36 @@ namespace Central_Suporte
                     modal.ShowDialog();
                 }
             }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            TabPags.SelectedTab = LimpezaManual;
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            TabPags.SelectedTab = Chamados;
+        }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            TabPags.SelectedTab = LimpezaAuto;
+        }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+            TabPags.SelectedTab = verificarRed;
+        }
+
+        private void iconButton5_Click(object sender, EventArgs e)
+        {
+            TabPags.SelectedTab = Status;
         }
     }
 }
