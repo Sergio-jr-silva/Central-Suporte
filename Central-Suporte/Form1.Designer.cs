@@ -41,6 +41,15 @@
             label2 = new Label();
             label1 = new Label();
             Status = new TabPage();
+            panel4 = new Panel();
+            iconButton14 = new FontAwesome.Sharp.IconButton();
+            label14 = new Label();
+            button4 = new Button();
+            button3 = new Button();
+            button2 = new Button();
+            button1 = new Button();
+            label13 = new Label();
+            label11 = new Label();
             verificarRed = new TabPage();
             iconButton13 = new FontAwesome.Sharp.IconButton();
             iconButton12 = new FontAwesome.Sharp.IconButton();
@@ -73,8 +82,84 @@
             label7 = new Label();
             iconButton8 = new FontAwesome.Sharp.IconButton();
             label6 = new Label();
+            label15 = new Label();
+            button5 = new Button();
+            panel5 = new Panel();
+            label16 = new Label();
+            iconButton15 = new FontAwesome.Sharp.IconButton();
+            label17 = new Label();
+            panel6 = new Panel();
+            label18 = new Label();
+            iconButton16 = new FontAwesome.Sharp.IconButton();
+            label19 = new Label();
+            panel7 = new Panel();
+            button8 = new Button();
+            label20 = new Label();
+            iconButton17 = new FontAwesome.Sharp.IconButton();
+            label21 = new Label();
+            panel8 = new Panel();
+            button9 = new Button();
+            label22 = new Label();
+            iconButton18 = new FontAwesome.Sharp.IconButton();
+            label23 = new Label();
+            panel9 = new Panel();
+            label24 = new Label();
+            iconButton19 = new FontAwesome.Sharp.IconButton();
+            label25 = new Label();
+            panel10 = new Panel();
+            label26 = new Label();
+            iconButton20 = new FontAwesome.Sharp.IconButton();
+            label27 = new Label();
+            panel11 = new Panel();
+            button12 = new Button();
+            label28 = new Label();
+            iconButton21 = new FontAwesome.Sharp.IconButton();
+            label29 = new Label();
+            panel12 = new Panel();
+            button13 = new Button();
+            label30 = new Label();
+            iconButton22 = new FontAwesome.Sharp.IconButton();
+            label31 = new Label();
+            panel13 = new Panel();
+            label32 = new Label();
+            iconButton23 = new FontAwesome.Sharp.IconButton();
+            label33 = new Label();
+            panel14 = new Panel();
+            button15 = new Button();
+            label34 = new Label();
+            iconButton24 = new FontAwesome.Sharp.IconButton();
+            label35 = new Label();
+            panel15 = new Panel();
+            label36 = new Label();
+            iconButton25 = new FontAwesome.Sharp.IconButton();
+            label37 = new Label();
+            panel16 = new Panel();
+            button17 = new Button();
+            label38 = new Label();
+            iconButton26 = new FontAwesome.Sharp.IconButton();
+            label39 = new Label();
+            panel17 = new Panel();
+            label40 = new Label();
+            iconButton27 = new FontAwesome.Sharp.IconButton();
+            label41 = new Label();
+            panel18 = new Panel();
+            button19 = new Button();
+            label42 = new Label();
+            iconButton28 = new FontAwesome.Sharp.IconButton();
+            label43 = new Label();
+            button6 = new Button();
+            button20 = new Button();
+            button21 = new Button();
+            button22 = new Button();
+            button7 = new Button();
+            button11 = new Button();
+            button16 = new Button();
+            button10 = new Button();
+            button14 = new Button();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
+            Status.SuspendLayout();
+            panel4.SuspendLayout();
             verificarRed.SuspendLayout();
             LimpezaManual.SuspendLayout();
             StatusServidor.SuspendLayout();
@@ -82,6 +167,20 @@
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             TabPags.SuspendLayout();
             LimpezaAuto.SuspendLayout();
+            panel5.SuspendLayout();
+            panel6.SuspendLayout();
+            panel7.SuspendLayout();
+            panel8.SuspendLayout();
+            panel9.SuspendLayout();
+            panel10.SuspendLayout();
+            panel11.SuspendLayout();
+            panel12.SuspendLayout();
+            panel13.SuspendLayout();
+            panel14.SuspendLayout();
+            panel15.SuspendLayout();
+            panel16.SuspendLayout();
+            panel17.SuspendLayout();
+            panel18.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -262,6 +361,27 @@
             // 
             // Status
             // 
+            Status.Controls.Add(panel18);
+            Status.Controls.Add(panel17);
+            Status.Controls.Add(panel16);
+            Status.Controls.Add(panel15);
+            Status.Controls.Add(panel14);
+            Status.Controls.Add(panel13);
+            Status.Controls.Add(panel12);
+            Status.Controls.Add(panel11);
+            Status.Controls.Add(panel10);
+            Status.Controls.Add(panel9);
+            Status.Controls.Add(panel8);
+            Status.Controls.Add(panel7);
+            Status.Controls.Add(panel6);
+            Status.Controls.Add(panel5);
+            Status.Controls.Add(panel4);
+            Status.Controls.Add(button4);
+            Status.Controls.Add(button3);
+            Status.Controls.Add(button2);
+            Status.Controls.Add(button1);
+            Status.Controls.Add(label13);
+            Status.Controls.Add(label11);
             Status.Location = new Point(4, 4);
             Status.Name = "Status";
             Status.Padding = new Padding(3);
@@ -269,6 +389,103 @@
             Status.TabIndex = 4;
             Status.Text = "tabPage5";
             Status.UseVisualStyleBackColor = true;
+            // 
+            // panel4
+            // 
+            panel4.Controls.Add(button5);
+            panel4.Controls.Add(label15);
+            panel4.Controls.Add(iconButton14);
+            panel4.Controls.Add(label14);
+            panel4.Location = new Point(75, 163);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(122, 92);
+            panel4.TabIndex = 8;
+            // 
+            // iconButton14
+            // 
+            iconButton14.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            iconButton14.IconColor = Color.Black;
+            iconButton14.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton14.Location = new Point(3, 3);
+            iconButton14.Name = "iconButton14";
+            iconButton14.Size = new Size(58, 40);
+            iconButton14.TabIndex = 1;
+            iconButton14.UseVisualStyleBackColor = true;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new Point(59, 13);
+            label14.Name = "label14";
+            label14.Size = new Size(49, 20);
+            label14.TabIndex = 0;
+            label14.Text = "PC001";
+            // 
+            // button4
+            // 
+            button4.BackColor = Color.Gray;
+            button4.FlatAppearance.BorderSize = 0;
+            button4.ForeColor = Color.White;
+            button4.Location = new Point(602, 95);
+            button4.Name = "button4";
+            button4.Size = new Size(148, 43);
+            button4.TabIndex = 7;
+            button4.Text = "Em Manutenção";
+            button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.BackColor = Color.Gold;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.ForeColor = Color.White;
+            button3.Location = new Point(420, 95);
+            button3.Name = "button3";
+            button3.Size = new Size(148, 43);
+            button3.TabIndex = 6;
+            button3.Text = "Instáveis";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.Crimson;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.ForeColor = Color.White;
+            button2.Location = new Point(242, 95);
+            button2.Name = "button2";
+            button2.Size = new Size(148, 43);
+            button2.TabIndex = 5;
+            button2.Text = "Inativos";
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Lime;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.ForeColor = Color.White;
+            button1.Location = new Point(75, 95);
+            button1.Name = "button1";
+            button1.Size = new Size(148, 43);
+            button1.TabIndex = 4;
+            button1.Text = "Ativos";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(69, 95);
+            label13.Name = "label13";
+            label13.Size = new Size(0, 20);
+            label13.TabIndex = 3;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Arial Narrow", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label11.Location = new Point(69, 39);
+            label11.Name = "label11";
+            label11.Size = new Size(258, 33);
+            label11.TabIndex = 2;
+            label11.Text = "Status dos Servidores";
             // 
             // verificarRed
             // 
@@ -298,7 +515,7 @@
             iconButton13.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton13.IconSize = 32;
             iconButton13.ImageAlign = ContentAlignment.MiddleLeft;
-            iconButton13.Location = new Point(352, 313);
+            iconButton13.Location = new Point(352, 305);
             iconButton13.Name = "iconButton13";
             iconButton13.Size = new Size(214, 50);
             iconButton13.TabIndex = 7;
@@ -685,6 +902,782 @@
             label6.TabIndex = 0;
             label6.Text = "Limpeza Automática";
             // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Location = new Point(32, 46);
+            label15.Name = "label15";
+            label15.Size = new Size(79, 20);
+            label15.TabIndex = 2;
+            label15.Text = "192.166.0.1";
+            label15.Click += label15_Click;
+            // 
+            // button5
+            // 
+            button5.BackColor = Color.Lime;
+            button5.FlatAppearance.BorderSize = 0;
+            button5.ForeColor = Color.White;
+            button5.Location = new Point(3, 66);
+            button5.Name = "button5";
+            button5.Size = new Size(68, 26);
+            button5.TabIndex = 9;
+            button5.Text = "Ativo";
+            button5.UseVisualStyleBackColor = false;
+            // 
+            // panel5
+            // 
+            panel5.Controls.Add(button6);
+            panel5.Controls.Add(label16);
+            panel5.Controls.Add(iconButton15);
+            panel5.Controls.Add(label17);
+            panel5.Location = new Point(221, 163);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(122, 92);
+            panel5.TabIndex = 10;
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Location = new Point(32, 46);
+            label16.Name = "label16";
+            label16.Size = new Size(79, 20);
+            label16.TabIndex = 2;
+            label16.Text = "192.166.0.1";
+            // 
+            // iconButton15
+            // 
+            iconButton15.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            iconButton15.IconColor = Color.Black;
+            iconButton15.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton15.Location = new Point(3, 3);
+            iconButton15.Name = "iconButton15";
+            iconButton15.Size = new Size(58, 40);
+            iconButton15.TabIndex = 1;
+            iconButton15.UseVisualStyleBackColor = true;
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Location = new Point(59, 13);
+            label17.Name = "label17";
+            label17.Size = new Size(49, 20);
+            label17.TabIndex = 0;
+            label17.Text = "PC001";
+            // 
+            // panel6
+            // 
+            panel6.Controls.Add(button22);
+            panel6.Controls.Add(label18);
+            panel6.Controls.Add(iconButton16);
+            panel6.Controls.Add(label19);
+            panel6.Location = new Point(363, 163);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(122, 92);
+            panel6.TabIndex = 10;
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Location = new Point(32, 46);
+            label18.Name = "label18";
+            label18.Size = new Size(79, 20);
+            label18.TabIndex = 2;
+            label18.Text = "192.166.0.1";
+            // 
+            // iconButton16
+            // 
+            iconButton16.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            iconButton16.IconColor = Color.Black;
+            iconButton16.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton16.Location = new Point(3, 3);
+            iconButton16.Name = "iconButton16";
+            iconButton16.Size = new Size(58, 40);
+            iconButton16.TabIndex = 1;
+            iconButton16.UseVisualStyleBackColor = true;
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(59, 13);
+            label19.Name = "label19";
+            label19.Size = new Size(49, 20);
+            label19.TabIndex = 0;
+            label19.Text = "PC001";
+            // 
+            // panel7
+            // 
+            panel7.Controls.Add(button21);
+            panel7.Controls.Add(button8);
+            panel7.Controls.Add(label20);
+            panel7.Controls.Add(iconButton17);
+            panel7.Controls.Add(label21);
+            panel7.Location = new Point(501, 163);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(122, 92);
+            panel7.TabIndex = 11;
+            // 
+            // button8
+            // 
+            button8.BackColor = Color.Lime;
+            button8.FlatAppearance.BorderSize = 0;
+            button8.ForeColor = Color.White;
+            button8.Location = new Point(3, 66);
+            button8.Name = "button8";
+            button8.Size = new Size(68, 26);
+            button8.TabIndex = 9;
+            button8.Text = "Ativo";
+            button8.UseVisualStyleBackColor = false;
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Location = new Point(32, 46);
+            label20.Name = "label20";
+            label20.Size = new Size(79, 20);
+            label20.TabIndex = 2;
+            label20.Text = "192.166.0.1";
+            // 
+            // iconButton17
+            // 
+            iconButton17.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            iconButton17.IconColor = Color.Black;
+            iconButton17.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton17.Location = new Point(3, 3);
+            iconButton17.Name = "iconButton17";
+            iconButton17.Size = new Size(58, 40);
+            iconButton17.TabIndex = 1;
+            iconButton17.UseVisualStyleBackColor = true;
+            // 
+            // label21
+            // 
+            label21.AutoSize = true;
+            label21.Location = new Point(59, 13);
+            label21.Name = "label21";
+            label21.Size = new Size(49, 20);
+            label21.TabIndex = 0;
+            label21.Text = "PC001";
+            // 
+            // panel8
+            // 
+            panel8.Controls.Add(button9);
+            panel8.Controls.Add(label22);
+            panel8.Controls.Add(iconButton18);
+            panel8.Controls.Add(label23);
+            panel8.Location = new Point(647, 163);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(122, 92);
+            panel8.TabIndex = 11;
+            // 
+            // button9
+            // 
+            button9.BackColor = Color.Lime;
+            button9.FlatAppearance.BorderSize = 0;
+            button9.ForeColor = Color.White;
+            button9.Location = new Point(3, 66);
+            button9.Name = "button9";
+            button9.Size = new Size(68, 26);
+            button9.TabIndex = 9;
+            button9.Text = "Ativo";
+            button9.UseVisualStyleBackColor = false;
+            // 
+            // label22
+            // 
+            label22.AutoSize = true;
+            label22.Location = new Point(32, 46);
+            label22.Name = "label22";
+            label22.Size = new Size(79, 20);
+            label22.TabIndex = 2;
+            label22.Text = "192.166.0.1";
+            // 
+            // iconButton18
+            // 
+            iconButton18.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            iconButton18.IconColor = Color.Black;
+            iconButton18.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton18.Location = new Point(3, 3);
+            iconButton18.Name = "iconButton18";
+            iconButton18.Size = new Size(58, 40);
+            iconButton18.TabIndex = 1;
+            iconButton18.UseVisualStyleBackColor = true;
+            // 
+            // label23
+            // 
+            label23.AutoSize = true;
+            label23.Location = new Point(59, 13);
+            label23.Name = "label23";
+            label23.Size = new Size(49, 20);
+            label23.TabIndex = 0;
+            label23.Text = "PC001";
+            // 
+            // panel9
+            // 
+            panel9.Controls.Add(button16);
+            panel9.Controls.Add(label24);
+            panel9.Controls.Add(iconButton19);
+            panel9.Controls.Add(label25);
+            panel9.Location = new Point(650, 271);
+            panel9.Name = "panel9";
+            panel9.Size = new Size(122, 92);
+            panel9.TabIndex = 11;
+            // 
+            // label24
+            // 
+            label24.AutoSize = true;
+            label24.Location = new Point(32, 46);
+            label24.Name = "label24";
+            label24.Size = new Size(79, 20);
+            label24.TabIndex = 2;
+            label24.Text = "192.166.0.1";
+            // 
+            // iconButton19
+            // 
+            iconButton19.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            iconButton19.IconColor = Color.Black;
+            iconButton19.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton19.Location = new Point(3, 3);
+            iconButton19.Name = "iconButton19";
+            iconButton19.Size = new Size(58, 40);
+            iconButton19.TabIndex = 1;
+            iconButton19.UseVisualStyleBackColor = true;
+            // 
+            // label25
+            // 
+            label25.AutoSize = true;
+            label25.Location = new Point(59, 13);
+            label25.Name = "label25";
+            label25.Size = new Size(49, 20);
+            label25.TabIndex = 0;
+            label25.Text = "PC001";
+            // 
+            // panel10
+            // 
+            panel10.Controls.Add(button7);
+            panel10.Controls.Add(label26);
+            panel10.Controls.Add(iconButton20);
+            panel10.Controls.Add(label27);
+            panel10.Location = new Point(504, 271);
+            panel10.Name = "panel10";
+            panel10.Size = new Size(122, 92);
+            panel10.TabIndex = 11;
+            // 
+            // label26
+            // 
+            label26.AutoSize = true;
+            label26.Location = new Point(32, 46);
+            label26.Name = "label26";
+            label26.Size = new Size(79, 20);
+            label26.TabIndex = 2;
+            label26.Text = "192.166.0.1";
+            // 
+            // iconButton20
+            // 
+            iconButton20.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            iconButton20.IconColor = Color.Black;
+            iconButton20.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton20.Location = new Point(3, 3);
+            iconButton20.Name = "iconButton20";
+            iconButton20.Size = new Size(58, 40);
+            iconButton20.TabIndex = 1;
+            iconButton20.UseVisualStyleBackColor = true;
+            // 
+            // label27
+            // 
+            label27.AutoSize = true;
+            label27.Location = new Point(59, 13);
+            label27.Name = "label27";
+            label27.Size = new Size(49, 20);
+            label27.TabIndex = 0;
+            label27.Text = "PC001";
+            // 
+            // panel11
+            // 
+            panel11.Controls.Add(button12);
+            panel11.Controls.Add(label28);
+            panel11.Controls.Add(iconButton21);
+            panel11.Controls.Add(label29);
+            panel11.Location = new Point(366, 271);
+            panel11.Name = "panel11";
+            panel11.Size = new Size(122, 92);
+            panel11.TabIndex = 11;
+            // 
+            // button12
+            // 
+            button12.BackColor = Color.Lime;
+            button12.FlatAppearance.BorderSize = 0;
+            button12.ForeColor = Color.White;
+            button12.Location = new Point(3, 66);
+            button12.Name = "button12";
+            button12.Size = new Size(68, 26);
+            button12.TabIndex = 9;
+            button12.Text = "Ativo";
+            button12.UseVisualStyleBackColor = false;
+            // 
+            // label28
+            // 
+            label28.AutoSize = true;
+            label28.Location = new Point(32, 46);
+            label28.Name = "label28";
+            label28.Size = new Size(79, 20);
+            label28.TabIndex = 2;
+            label28.Text = "192.166.0.1";
+            // 
+            // iconButton21
+            // 
+            iconButton21.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            iconButton21.IconColor = Color.Black;
+            iconButton21.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton21.Location = new Point(3, 3);
+            iconButton21.Name = "iconButton21";
+            iconButton21.Size = new Size(58, 40);
+            iconButton21.TabIndex = 1;
+            iconButton21.UseVisualStyleBackColor = true;
+            // 
+            // label29
+            // 
+            label29.AutoSize = true;
+            label29.Location = new Point(59, 13);
+            label29.Name = "label29";
+            label29.Size = new Size(49, 20);
+            label29.TabIndex = 0;
+            label29.Text = "PC001";
+            // 
+            // panel12
+            // 
+            panel12.Controls.Add(button20);
+            panel12.Controls.Add(button13);
+            panel12.Controls.Add(label30);
+            panel12.Controls.Add(iconButton22);
+            panel12.Controls.Add(label31);
+            panel12.Location = new Point(221, 271);
+            panel12.Name = "panel12";
+            panel12.Size = new Size(122, 92);
+            panel12.TabIndex = 11;
+            // 
+            // button13
+            // 
+            button13.BackColor = Color.Lime;
+            button13.FlatAppearance.BorderSize = 0;
+            button13.ForeColor = Color.White;
+            button13.Location = new Point(3, 66);
+            button13.Name = "button13";
+            button13.Size = new Size(68, 26);
+            button13.TabIndex = 9;
+            button13.Text = "Ativo";
+            button13.UseVisualStyleBackColor = false;
+            // 
+            // label30
+            // 
+            label30.AutoSize = true;
+            label30.Location = new Point(32, 46);
+            label30.Name = "label30";
+            label30.Size = new Size(79, 20);
+            label30.TabIndex = 2;
+            label30.Text = "192.166.0.1";
+            // 
+            // iconButton22
+            // 
+            iconButton22.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            iconButton22.IconColor = Color.Black;
+            iconButton22.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton22.Location = new Point(3, 3);
+            iconButton22.Name = "iconButton22";
+            iconButton22.Size = new Size(58, 40);
+            iconButton22.TabIndex = 1;
+            iconButton22.UseVisualStyleBackColor = true;
+            // 
+            // label31
+            // 
+            label31.AutoSize = true;
+            label31.Location = new Point(59, 13);
+            label31.Name = "label31";
+            label31.Size = new Size(49, 20);
+            label31.TabIndex = 0;
+            label31.Text = "PC001";
+            // 
+            // panel13
+            // 
+            panel13.Controls.Add(button10);
+            panel13.Controls.Add(label32);
+            panel13.Controls.Add(iconButton23);
+            panel13.Controls.Add(label33);
+            panel13.Location = new Point(78, 271);
+            panel13.Name = "panel13";
+            panel13.Size = new Size(122, 92);
+            panel13.TabIndex = 11;
+            // 
+            // label32
+            // 
+            label32.AutoSize = true;
+            label32.Location = new Point(32, 46);
+            label32.Name = "label32";
+            label32.Size = new Size(79, 20);
+            label32.TabIndex = 2;
+            label32.Text = "192.166.0.1";
+            // 
+            // iconButton23
+            // 
+            iconButton23.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            iconButton23.IconColor = Color.Black;
+            iconButton23.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton23.Location = new Point(3, 3);
+            iconButton23.Name = "iconButton23";
+            iconButton23.Size = new Size(58, 40);
+            iconButton23.TabIndex = 1;
+            iconButton23.UseVisualStyleBackColor = true;
+            // 
+            // label33
+            // 
+            label33.AutoSize = true;
+            label33.Location = new Point(59, 13);
+            label33.Name = "label33";
+            label33.Size = new Size(49, 20);
+            label33.TabIndex = 0;
+            label33.Text = "PC001";
+            // 
+            // panel14
+            // 
+            panel14.Controls.Add(button15);
+            panel14.Controls.Add(label34);
+            panel14.Controls.Add(iconButton24);
+            panel14.Controls.Add(label35);
+            panel14.Location = new Point(78, 378);
+            panel14.Name = "panel14";
+            panel14.Size = new Size(122, 92);
+            panel14.TabIndex = 11;
+            // 
+            // button15
+            // 
+            button15.BackColor = Color.Lime;
+            button15.FlatAppearance.BorderSize = 0;
+            button15.ForeColor = Color.White;
+            button15.Location = new Point(3, 66);
+            button15.Name = "button15";
+            button15.Size = new Size(68, 26);
+            button15.TabIndex = 9;
+            button15.Text = "Ativo";
+            button15.UseVisualStyleBackColor = false;
+            // 
+            // label34
+            // 
+            label34.AutoSize = true;
+            label34.Location = new Point(32, 46);
+            label34.Name = "label34";
+            label34.Size = new Size(79, 20);
+            label34.TabIndex = 2;
+            label34.Text = "192.166.0.1";
+            // 
+            // iconButton24
+            // 
+            iconButton24.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            iconButton24.IconColor = Color.Black;
+            iconButton24.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton24.Location = new Point(3, 3);
+            iconButton24.Name = "iconButton24";
+            iconButton24.Size = new Size(58, 40);
+            iconButton24.TabIndex = 1;
+            iconButton24.UseVisualStyleBackColor = true;
+            // 
+            // label35
+            // 
+            label35.AutoSize = true;
+            label35.Location = new Point(59, 13);
+            label35.Name = "label35";
+            label35.Size = new Size(49, 20);
+            label35.TabIndex = 0;
+            label35.Text = "PC001";
+            // 
+            // panel15
+            // 
+            panel15.Controls.Add(button11);
+            panel15.Controls.Add(label36);
+            panel15.Controls.Add(iconButton25);
+            panel15.Controls.Add(label37);
+            panel15.Location = new Point(221, 381);
+            panel15.Name = "panel15";
+            panel15.Size = new Size(122, 92);
+            panel15.TabIndex = 11;
+            // 
+            // label36
+            // 
+            label36.AutoSize = true;
+            label36.Location = new Point(32, 46);
+            label36.Name = "label36";
+            label36.Size = new Size(79, 20);
+            label36.TabIndex = 2;
+            label36.Text = "192.166.0.1";
+            // 
+            // iconButton25
+            // 
+            iconButton25.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            iconButton25.IconColor = Color.Black;
+            iconButton25.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton25.Location = new Point(3, 3);
+            iconButton25.Name = "iconButton25";
+            iconButton25.Size = new Size(58, 40);
+            iconButton25.TabIndex = 1;
+            iconButton25.UseVisualStyleBackColor = true;
+            // 
+            // label37
+            // 
+            label37.AutoSize = true;
+            label37.Location = new Point(59, 13);
+            label37.Name = "label37";
+            label37.Size = new Size(49, 20);
+            label37.TabIndex = 0;
+            label37.Text = "PC001";
+            // 
+            // panel16
+            // 
+            panel16.Controls.Add(button17);
+            panel16.Controls.Add(label38);
+            panel16.Controls.Add(iconButton26);
+            panel16.Controls.Add(label39);
+            panel16.Location = new Point(366, 384);
+            panel16.Name = "panel16";
+            panel16.Size = new Size(122, 92);
+            panel16.TabIndex = 11;
+            // 
+            // button17
+            // 
+            button17.BackColor = Color.Lime;
+            button17.FlatAppearance.BorderSize = 0;
+            button17.ForeColor = Color.White;
+            button17.Location = new Point(3, 66);
+            button17.Name = "button17";
+            button17.Size = new Size(68, 26);
+            button17.TabIndex = 9;
+            button17.Text = "Ativo";
+            button17.UseVisualStyleBackColor = false;
+            // 
+            // label38
+            // 
+            label38.AutoSize = true;
+            label38.Location = new Point(32, 46);
+            label38.Name = "label38";
+            label38.Size = new Size(79, 20);
+            label38.TabIndex = 2;
+            label38.Text = "192.166.0.1";
+            // 
+            // iconButton26
+            // 
+            iconButton26.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            iconButton26.IconColor = Color.Black;
+            iconButton26.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton26.Location = new Point(3, 3);
+            iconButton26.Name = "iconButton26";
+            iconButton26.Size = new Size(58, 40);
+            iconButton26.TabIndex = 1;
+            iconButton26.UseVisualStyleBackColor = true;
+            // 
+            // label39
+            // 
+            label39.AutoSize = true;
+            label39.Location = new Point(59, 13);
+            label39.Name = "label39";
+            label39.Size = new Size(49, 20);
+            label39.TabIndex = 0;
+            label39.Text = "PC001";
+            // 
+            // panel17
+            // 
+            panel17.Controls.Add(button14);
+            panel17.Controls.Add(label40);
+            panel17.Controls.Add(iconButton27);
+            panel17.Controls.Add(label41);
+            panel17.Location = new Point(504, 384);
+            panel17.Name = "panel17";
+            panel17.Size = new Size(122, 92);
+            panel17.TabIndex = 11;
+            // 
+            // label40
+            // 
+            label40.AutoSize = true;
+            label40.Location = new Point(32, 46);
+            label40.Name = "label40";
+            label40.Size = new Size(79, 20);
+            label40.TabIndex = 2;
+            label40.Text = "192.166.0.1";
+            // 
+            // iconButton27
+            // 
+            iconButton27.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            iconButton27.IconColor = Color.Black;
+            iconButton27.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton27.Location = new Point(3, 3);
+            iconButton27.Name = "iconButton27";
+            iconButton27.Size = new Size(58, 40);
+            iconButton27.TabIndex = 1;
+            iconButton27.UseVisualStyleBackColor = true;
+            // 
+            // label41
+            // 
+            label41.AutoSize = true;
+            label41.Location = new Point(59, 13);
+            label41.Name = "label41";
+            label41.Size = new Size(49, 20);
+            label41.TabIndex = 0;
+            label41.Text = "PC001";
+            // 
+            // panel18
+            // 
+            panel18.Controls.Add(button19);
+            panel18.Controls.Add(label42);
+            panel18.Controls.Add(iconButton28);
+            panel18.Controls.Add(label43);
+            panel18.Location = new Point(653, 384);
+            panel18.Name = "panel18";
+            panel18.Size = new Size(122, 92);
+            panel18.TabIndex = 11;
+            // 
+            // button19
+            // 
+            button19.BackColor = Color.Lime;
+            button19.FlatAppearance.BorderSize = 0;
+            button19.ForeColor = Color.White;
+            button19.Location = new Point(3, 66);
+            button19.Name = "button19";
+            button19.Size = new Size(68, 26);
+            button19.TabIndex = 9;
+            button19.Text = "Ativo";
+            button19.UseVisualStyleBackColor = false;
+            // 
+            // label42
+            // 
+            label42.AutoSize = true;
+            label42.Location = new Point(32, 46);
+            label42.Name = "label42";
+            label42.Size = new Size(79, 20);
+            label42.TabIndex = 2;
+            label42.Text = "192.166.0.1";
+            // 
+            // iconButton28
+            // 
+            iconButton28.IconChar = FontAwesome.Sharp.IconChar.Computer;
+            iconButton28.IconColor = Color.Black;
+            iconButton28.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton28.Location = new Point(3, 3);
+            iconButton28.Name = "iconButton28";
+            iconButton28.Size = new Size(58, 40);
+            iconButton28.TabIndex = 1;
+            iconButton28.UseVisualStyleBackColor = true;
+            // 
+            // label43
+            // 
+            label43.AutoSize = true;
+            label43.Location = new Point(59, 13);
+            label43.Name = "label43";
+            label43.Size = new Size(49, 20);
+            label43.TabIndex = 0;
+            label43.Text = "PC001";
+            // 
+            // button6
+            // 
+            button6.BackColor = Color.Crimson;
+            button6.FlatAppearance.BorderSize = 0;
+            button6.ForeColor = Color.White;
+            button6.Location = new Point(0, 66);
+            button6.Name = "button6";
+            button6.Size = new Size(71, 27);
+            button6.TabIndex = 6;
+            button6.Text = "Inativo";
+            button6.UseVisualStyleBackColor = false;
+            // 
+            // button20
+            // 
+            button20.BackColor = Color.Crimson;
+            button20.FlatAppearance.BorderSize = 0;
+            button20.ForeColor = Color.White;
+            button20.Location = new Point(0, 66);
+            button20.Name = "button20";
+            button20.Size = new Size(71, 27);
+            button20.TabIndex = 7;
+            button20.Text = "Inativo";
+            button20.UseVisualStyleBackColor = false;
+            // 
+            // button21
+            // 
+            button21.BackColor = Color.Crimson;
+            button21.FlatAppearance.BorderSize = 0;
+            button21.ForeColor = Color.White;
+            button21.Location = new Point(6, 66);
+            button21.Name = "button21";
+            button21.Size = new Size(71, 27);
+            button21.TabIndex = 10;
+            button21.Text = "Inativo";
+            button21.UseVisualStyleBackColor = false;
+            // 
+            // button22
+            // 
+            button22.BackColor = Color.Gold;
+            button22.FlatAppearance.BorderSize = 0;
+            button22.ForeColor = Color.White;
+            button22.Location = new Point(0, 63);
+            button22.Name = "button22";
+            button22.Size = new Size(74, 30);
+            button22.TabIndex = 12;
+            button22.Text = "Instável";
+            button22.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            button7.BackColor = Color.Gold;
+            button7.FlatAppearance.BorderSize = 0;
+            button7.ForeColor = Color.White;
+            button7.Location = new Point(3, 63);
+            button7.Name = "button7";
+            button7.Size = new Size(71, 30);
+            button7.TabIndex = 13;
+            button7.Text = "Instável";
+            button7.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            button11.BackColor = Color.Gold;
+            button11.FlatAppearance.BorderSize = 0;
+            button11.ForeColor = Color.White;
+            button11.Location = new Point(-3, 63);
+            button11.Name = "button11";
+            button11.Size = new Size(74, 30);
+            button11.TabIndex = 13;
+            button11.Text = "Instável";
+            button11.UseVisualStyleBackColor = false;
+            // 
+            // button16
+            // 
+            button16.BackColor = Color.Gray;
+            button16.FlatAppearance.BorderSize = 0;
+            button16.ForeColor = Color.White;
+            button16.Location = new Point(3, 65);
+            button16.Name = "button16";
+            button16.Size = new Size(105, 26);
+            button16.TabIndex = 12;
+            button16.Text = "Manutenção";
+            button16.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            button10.BackColor = Color.Gray;
+            button10.FlatAppearance.BorderSize = 0;
+            button10.ForeColor = Color.White;
+            button10.Location = new Point(3, 63);
+            button10.Name = "button10";
+            button10.Size = new Size(105, 26);
+            button10.TabIndex = 13;
+            button10.Text = "Manutenção";
+            button10.UseVisualStyleBackColor = false;
+            // 
+            // button14
+            // 
+            button14.BackColor = Color.Gray;
+            button14.FlatAppearance.BorderSize = 0;
+            button14.ForeColor = Color.White;
+            button14.Location = new Point(0, 66);
+            button14.Name = "button14";
+            button14.Size = new Size(105, 26);
+            button14.TabIndex = 13;
+            button14.Text = "Manutenção";
+            button14.UseVisualStyleBackColor = false;
+            // 
             // CentralSuporte
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
@@ -703,6 +1696,10 @@
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            Status.ResumeLayout(false);
+            Status.PerformLayout();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
             verificarRed.ResumeLayout(false);
             verificarRed.PerformLayout();
             LimpezaManual.ResumeLayout(false);
@@ -715,6 +1712,34 @@
             TabPags.ResumeLayout(false);
             LimpezaAuto.ResumeLayout(false);
             LimpezaAuto.PerformLayout();
+            panel5.ResumeLayout(false);
+            panel5.PerformLayout();
+            panel6.ResumeLayout(false);
+            panel6.PerformLayout();
+            panel7.ResumeLayout(false);
+            panel7.PerformLayout();
+            panel8.ResumeLayout(false);
+            panel8.PerformLayout();
+            panel9.ResumeLayout(false);
+            panel9.PerformLayout();
+            panel10.ResumeLayout(false);
+            panel10.PerformLayout();
+            panel11.ResumeLayout(false);
+            panel11.PerformLayout();
+            panel12.ResumeLayout(false);
+            panel12.PerformLayout();
+            panel13.ResumeLayout(false);
+            panel13.PerformLayout();
+            panel14.ResumeLayout(false);
+            panel14.PerformLayout();
+            panel15.ResumeLayout(false);
+            panel15.PerformLayout();
+            panel16.ResumeLayout(false);
+            panel16.PerformLayout();
+            panel17.ResumeLayout(false);
+            panel17.PerformLayout();
+            panel18.ResumeLayout(false);
+            panel18.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -765,5 +1790,88 @@
         private FontAwesome.Sharp.IconButton iconButton11;
         private FontAwesome.Sharp.IconButton iconButton13;
         private FontAwesome.Sharp.IconButton iconButton12;
+        private Label label13;
+        private Label label11;
+        private Button button2;
+        private Button button1;
+        private Button button3;
+        private Panel panel4;
+        private FontAwesome.Sharp.IconButton iconButton14;
+        private Label label14;
+        private Button button4;
+        private Button button5;
+        private Label label15;
+        private Button button22;
+        private Panel panel18;
+        private Button button19;
+        private Label label42;
+        private FontAwesome.Sharp.IconButton iconButton28;
+        private Label label43;
+        private Panel panel17;
+        private Label label40;
+        private FontAwesome.Sharp.IconButton iconButton27;
+        private Label label41;
+        private Panel panel16;
+        private Button button17;
+        private Label label38;
+        private FontAwesome.Sharp.IconButton iconButton26;
+        private Label label39;
+        private Panel panel15;
+        private Label label36;
+        private FontAwesome.Sharp.IconButton iconButton25;
+        private Label label37;
+        private Panel panel14;
+        private Button button15;
+        private Label label34;
+        private FontAwesome.Sharp.IconButton iconButton24;
+        private Label label35;
+        private Panel panel13;
+        private Label label32;
+        private FontAwesome.Sharp.IconButton iconButton23;
+        private Label label33;
+        private Panel panel12;
+        private Button button20;
+        private Button button13;
+        private Label label30;
+        private FontAwesome.Sharp.IconButton iconButton22;
+        private Label label31;
+        private Panel panel11;
+        private Button button12;
+        private Label label28;
+        private FontAwesome.Sharp.IconButton iconButton21;
+        private Label label29;
+        private Panel panel10;
+        private Label label26;
+        private FontAwesome.Sharp.IconButton iconButton20;
+        private Label label27;
+        private Panel panel9;
+        private Label label24;
+        private FontAwesome.Sharp.IconButton iconButton19;
+        private Label label25;
+        private Panel panel8;
+        private Button button9;
+        private Label label22;
+        private FontAwesome.Sharp.IconButton iconButton18;
+        private Label label23;
+        private Panel panel7;
+        private Button button21;
+        private Button button8;
+        private Label label20;
+        private FontAwesome.Sharp.IconButton iconButton17;
+        private Label label21;
+        private Panel panel6;
+        private Label label18;
+        private FontAwesome.Sharp.IconButton iconButton16;
+        private Label label19;
+        private Panel panel5;
+        private Button button6;
+        private Label label16;
+        private FontAwesome.Sharp.IconButton iconButton15;
+        private Label label17;
+        private Button button14;
+        private Button button11;
+        private Button button10;
+        private Button button7;
+        private Button button16;
     }
 }

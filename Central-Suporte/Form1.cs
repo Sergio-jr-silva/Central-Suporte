@@ -222,5 +222,10 @@ namespace Central_Suporte
         {
             TabPags.SelectedTab = Status;
         }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
